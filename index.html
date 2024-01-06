@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home For Rent Vehicles">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>CarRental</title>
+</head>
+
+
+<body>
+    <header>
+        <a class="logo" href="home.html">
+            <div class="circle"></div>Car<span>Rental</span>
+        </a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="reservation.html">Reservation</a>
+        </nav>
+        <a class="contact" href="contact.html">Contact</a>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <div class="banner">
+            <p>Find Your Car</p>
+            <span>We Have The Best For You!</span>
+            <svg width="48px" viewBox="0 0 24 24">
+        <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+      </svg>
+        </div>
+
+
+        <div class="collb">
+            <p>In Collaboration With </p>
+            <div class="loges">
+                <a href="https://www.ford.com" target="_blank">
+                    <img src="pictures/ford-logo.png" alt="ford-logo"> </a>
+                <a href="https://www.mercedes-benz.com" target="_blank">
+                    <img src="pictures/mercedes-logo.png" alt="mercedes-logo"></a>
+                <a href="https://www.toyota.com" target="_blank">
+                    <img src="pictures/toyota-logo.png" alt="toyota-logo"></a>
+            </div>
+        </div>
+
+        <div class="info">
+            <p>Choose your category</p>
+            <span>We Have The Best For You!</span>
+            <div class="info-card">
+                <div style="background-image: url(pictures/berline-5.jpg);"><span>BERLINE</span></div>
+                <div style="background-image: url(pictures/citadine-4.jpg);"><span>CITADINE</span></div>
+                <div style="background-image: url(pictures/compact-1.jpg);"><span>COMPACT</span></div>
+            </div>
+        </div>
+
+        <div class="work">
+            <p>How It Works?</p>
+
+            <div class="info">
+                <div>
+                    <img src="https://img.icons8.com/dusk/48/000000/key-not-in-vehicle--v2.png" alt="vehicle" />
+                    <p>Choose your vehicle</p>
+                    <span>Select the vehicle of your choice</span>
+                </div>
+
+                <div>
+                    <img src="https://img.icons8.com/color/48/000000/choose.png" alt="choose" />
+                    <p>Book</p>
+                    <span>Select the vehicle of your choice</span>
+                </div>
+
+                <div>
+                    <img src="https://img.icons8.com/dusk/48/000000/speed.png" alt="speed" />
+                    <p> Get behind the wheel and go</p>
+                    <span>Select the vehicle of your choice </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="map">
+            <p>Find us</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.739639124895!2d10.588630299999998!3d35.830863199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd8b3b860b9a3b%3A0x35d82efedf0f5515!2sEPI%20digital%20school!5e0!3m2!1sen!2sma!4v1670703984190!5m2!1sen!2sma"
+                width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <footer>
+            <div class="social">
+                <a href="http://www.facebook.com" target="_blank">
+                    <img src="https://img.icons8.com/fluent/96/000000/facebook-new.png" alt="facebook-logo" /></a>
+                <a href="http://www.twitter.com" target="_blank">
+                    <img src="https://img.icons8.com/fluent/96/000000/twitter.png" alt="twitter-logo" /></a>
+            </div>
+            <p class="copyright">&copy; Copyright 2022 Arij Bouraoui</p>
+        </footer>
+    </main>
+</body>
+
+
+<script src="js/header.js"></script>
+<script>
+    document.querySelector("body > main > div.banner > svg").addEventListener('click', () => {
+        window.scroll({
+            top: 505,
+            behavior: 'smooth',
+        });
+    });
+</script>
+
+</html>
